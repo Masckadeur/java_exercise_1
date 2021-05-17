@@ -1,2 +1,2 @@
 # java_exercise_1
-cours JAVA numero 1
+cours JAVA numéro 1
