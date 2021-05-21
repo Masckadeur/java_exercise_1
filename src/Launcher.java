@@ -3,7 +3,10 @@ import java.util.*;
 public class Launcher {
     public static void main(String[] args){
 
-        List<Command> commands = List.of(new Quit(), new Fibo(), new Freq());
+        List<Command> commands = new ArrayList<>();
+        commands.add(new Quit());
+        commands.add(new Fibo());
+        commands.add(new Freq());
 
         boolean QuitCommand = true;
         Scanner scan = new Scanner(System.in);
